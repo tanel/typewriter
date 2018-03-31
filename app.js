@@ -33,6 +33,9 @@ window.app.onkeypress = function (e) {
 
 window.app.showNext = function () {
 	window.app.returnSound.play();
+	var a = $('a.hidden');
+	a.attr('href', 'http://' + window.app.code(a.attr('href')));
+	a.removeClass('hidden');
 };
 
 window.app.markup = function () {
