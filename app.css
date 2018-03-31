@@ -1,0 +1,9 @@
+body {
+	font-family: 'Special Elite', cursive;
+	font-size: 30px;
+	margin: 10%;
+}
+
+.hidden {
+	display: none;
+}
